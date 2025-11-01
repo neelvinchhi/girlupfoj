@@ -11,7 +11,7 @@ const campaigns = [
     date: "December 7, 2019",
     description: "Flames of Justice organised a Big Sale powered by Mouth Wide Shut Bakery to raise funds for providing sanitary napkins to underprivileged girls in Lucknow. The event aimed to promote menstrual hygiene and dignity for all.",
     impact: "The fundraiser was a huge success, thanks to the generous contributions of parents and students of GD Goenka Public School, Lucknow. The collected funds enabled us to distribute sanitary pads to girls in need, helping reduce menstrual stigma and improve access to basic hygiene.",
-    images: ["/campaigns/big-sale-1.jpg", "/campaigns/big-sale-2.jpg", "/campaigns/big-sale-3.jpg"]
+    images: ["/camps/bakesale2019/1.jpg", "/camps/bakesale2019/2.jpg"]
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const campaigns = [
     date: "October 2020", 
     description: "To help artisans affected by job loss and financial strain during the pandemic, Flames of Justice launched the Economic Emancipation Campaign. The initiative involved selling beautifully crafted mud diyas made by artisans from Chinhat, Lucknow, aiming to support their livelihood during Diwali.",
     impact: "The campaign brought light into the lives of many struggling artisans. Each diya sold represented not just a symbol of hope but also a step toward economic independence. The overwhelming response reaffirmed our belief in the power of collective compassion and community-driven support.",
-    images: ["/campaigns/diya-1.jpg", "/campaigns/diya-2.jpg", "/campaigns/diya-3.jpg"]
+    images: ["/camps/ecocampaign/1.jpg", "/camps/ecocampaign/2.jpg", "/camps/ecocampaign/3.jpg"]
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const campaigns = [
     date: "November–December 2020",
     description: "The second phase of the Economic Emancipation Campaign, The Centre Candles Project, was organised in collaboration with Sarthak Foundation. Families from Chinhat, Lucknow, produced candles to generate income amidst the pandemic.",
     impact: "The campaign empowered several underprivileged families and children supported by Sarthak Foundation. It not only provided financial relief but also helped restore dignity and self-sufficiency. We were grateful for the assistance provided by Sarthak foundation and aim to help others in the future.",
-    images: ["/campaigns/candles-1.jpg", "/campaigns/candles-2.jpg", "/campaigns/candles-3.jpg"]
+    images: ["/camps/ecocampaign/1.jpg", "/camps/ecocampaign/2.jpg", "/camps/ecocampaign/3.jpg"]
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const campaigns = [
     date: "March 28, 2022",
     description: "In collaboration with NGO Inayat, Flames of Justice conducted a menstrual hygiene donation drive, collecting over 50 donations for sanitary pads. The team visited rural areas to educate women and girls about menstruation, hygiene management, and health awareness.",
     impact: "The campaign was met with warmth and enthusiasm. Women and girls participated actively, asking questions and sharing experiences. The drive not only provided essential supplies but also helped break taboos around menstruation, replacing negative stigma with confidence and knowledge.",
-    images: ["/campaigns/inayat-1.jpg", "/campaigns/inayat-2.jpg", "/campaigns/inayat-3.jpg"]
+    images: ["/camps/menspaddistr/1.jpg", "/camps/menspaddistr/2.jpg", "/camps/menspaddistr/3.jpg"]
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const campaigns = [
     date: "February 27, 2022",
     description: "Girl Up FOJ conducted two educational sessions on menstrual hygiene for students of grades 4–7, featuring gynaecologist Dr. Archana Mishra. The sessions aimed to promote understanding of female reproductive health, sensitivity, and open discussion on menstruation.",
     impact: "The students' transformation—from hesitation to curiosity—was heartwarming. Teachers and Dr. Mishra praised the initiative for creating a safe, informed, and inclusive space for young girls. The campaign sparked awareness and helped normalise conversations around periods in schools.",
-    images: ["/campaigns/mishra-1.jpg", "/campaigns/mishra-2.jpg", "/campaigns/mishra-3.jpg"]
+    images: ["/camps/mesnhygienefield/1.jpg", "/camps/mesnhygienefield/2.jpg", "/camps/mesnhygienefield/3.jpg"]
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const campaigns = [
     date: "September 15, 2022",
     description: "Flames of Justice organised a donation drive with the Missionaries of Charity, Sapru Marg, Lucknow. Members interacted with elderly residents and individuals with special needs, learning from their inspiring life stories.",
     impact: "The experience was deeply moving and educational. Students sang, applied mehendi, and shared moments of compassion, leaving everyone smiling. The campaign instilled in our volunteers values of empathy, gratitude, and respect for all generations.",
-    images: ["/campaigns/charity-1.jpg", "/campaigns/charity-2.jpg", "/campaigns/charity-3.jpg"]
+    images: ["/camps/missionaries/1.jpg", "/camps/missionaries/2.jpg"]
   },
   {
     id: 7,
@@ -59,7 +59,7 @@ const campaigns = [
     date: "November 5, 2022",
     description: "Girl Up FOJ members visited Lucknow District Jail to donate warm blankets to inmates for the winter. The initiative focused on supporting prisoners facing unjust conditions or imprisonment for petty offences.",
     impact: "The visit shed light on prison rehabilitation and human rights. Volunteers interacted compassionately with inmates, understanding their struggles and hopes. The drive reinforced the importance of empathy, justice, and social reintegration over punishment.",
-    images: ["/campaigns/jail-1.jpg", "/campaigns/jail-2.jpg", "/campaigns/jail-3.jpg"]
+    images: ["/camps/districtlucknowjail/1.jpg", "/camps/districtlucknowjail/2.jpg", "/camps/districtlucknowjail/3.jpg"]
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ const campaigns = [
     date: "April 2023",
     description: "Girl Up FOJ organised an interactive session for the school's female support staff (Ayas) in collaboration with Prithvi Innovations. The session focused on hygiene, self-care, and empowerment for women in service roles.",
     impact: "We are deeply grateful to Ms. Anuradha Gupta from Prithvi Innovations for her collaboration. The session was met with enthusiasm, laughter, and heartfelt participation, creating a sense of unity, appreciation, and awareness among the attendees.",
-    images: ["/campaigns/staff-1.jpg", "/campaigns/staff-2.jpg", "/campaigns/staff-3.jpg"]
+    images: ["/camps/femalesupportstaffcampaign/1.jpg", "/camps/femalesupportstaffcampaign/2.jpg", "/camps/femalesupportstaffcampaign/3.jpg", "/camps/femalesupportstaffcampaign/4.jpg"]
   },
   {
     id: 9,
@@ -75,31 +75,15 @@ const campaigns = [
     date: "October 31, 2023",
     description: "In collaboration with Project Qadira, Girl Up FOJ conducted a menstrual hygiene awareness campaign for girls aged 11–17 at a school on the outskirts of Lucknow. The session focused on puberty, hygiene, and confidence-building.",
     impact: "The event concluded with the distribution of biodegradable menstrual care kits by Project Qadira. The campaign's success was recognised by Girl Up India, acknowledging our team's effort in breaking taboos and empowering young girls through education and awareness.",
-    images: ["/campaigns/qadira-1.jpg", "/campaigns/qadira-2.jpg", "/campaigns/qadira-3.jpg"]
+    images: ["/camps/qadira/1.jpg", "/camps/qadira/2.jpg", "/camps/qadira/3.jpg"]
   },
   {
     id: 10,
-    title: "Food Distribution Drive with Ehsaas",
-    date: "January 1, 2024",
-    description: "Flames of Justice was invited by Ehsaas, a Lucknow-based non-profit, to participate in a food distribution drive for underprivileged communities. Volunteers came together on New Year's Day to spread kindness and care.",
-    impact: "The smiles and gratitude of the recipients made this initiative truly heartwarming. It reminded us that every small act of service counts. We are grateful to Ehsaas for this opportunity to begin the year with compassion and purpose.",
-    images: ["/campaigns/ehsaas-1.jpg", "/campaigns/ehsaas-2.jpg", "/campaigns/ehsaas-3.jpg"]
-  },
-  {
-    id: 11,
-    title: "Visit to Jeev Aashraya Veterinary Hospital",
-    date: "May 4, 2024",
-    description: "Expanding our humanitarian reach, Flames of Justice organised a visit to Jeev Aashraya Veterinary Hospital, Lucknow. Students learned about animal welfare, compassion, and the vital role of shelters in protecting voiceless beings.",
-    impact: "The visit fostered empathy and awareness about animal rights among students. Observing rescued animals and understanding their care inspired a commitment toward kindness and responsible coexistence with all living beings.",
-    images: ["/campaigns/vet-1.jpg", "/campaigns/vet-2.jpg", "/campaigns/vet-3.jpg"]
-  },
-  {
-    id: 12,
-    title: "Christmas Donation Drive",
-    date: "December 25, 2024",
-    description: "During Christmas 2024, Flames of Justice held a clothes donation drive to bring warmth to underprivileged communities. The initiative encouraged students and families to contribute clothes and spread the festive spirit through acts of kindness.",
-    impact: "The heartfelt response from contributors truly reflected the real joy of Christmas, giving selflessly and spreading happiness. Through this drive, our community came together to make the season brighter for those in need, reminding us that compassion is the greatest gift of all.",
-    images: ["/campaigns/christmas-1.jpg", "/campaigns/christmas-2.jpg", "/campaigns/christmas-3.jpg"]
+    title: "Old Age Home Visit (Missionaries of Charity)",
+    date: "2022",
+    description: "Flames of Justice visited the Missionaries of Charity old age home to spend time with elderly residents and provide essential supplies.",
+    impact: "The visit created meaningful connections between generations and brought joy to the residents through shared activities and conversations.",
+    images: ["/camps/oldagehome(missionaries)/1.jpg", "/camps/oldagehome(missionaries)/2.jpg", "/camps/oldagehome(missionaries)/3.jpg"]
   }
 ];
 
