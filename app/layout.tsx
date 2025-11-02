@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <head>
-      <link rel='icon' href='./girlup-logo.jpg'/>
+      <link rel='icon' href='/girlup-logo.jpg'/>
     </head>
     <html lang="en" suppressHydrationWarning>
       <body className={outfit.className}>
