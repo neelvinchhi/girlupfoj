@@ -8,7 +8,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Girl Up FOJ - Home",
-  description: "",
+  description: "Powered by Sahaas",
 };
 
 export default function RootLayout({
@@ -17,6 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <head>
+      <link rel='icon' href='./girlup-logo.jpg'/>
+    </head>
     <html lang="en" suppressHydrationWarning>
       <body className={outfit.className}>
         <ThemeProvider
